@@ -1,12 +1,15 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
-    <meta charset="UTF-8">
-    <style> body {padding: 0; margin: 0;} canvas { display: block }</style>
-    <script src="../p5.min.js"></script>
-    <script src="sketch.js"></script>
-  </head>
-  <body>
-  </body>
-</html>
+function setup() {
+ createCanvas(128,128)
+}
+
+function draw() {
+  background(0);
+  strokeWeight(4);
+  fill(178, 100, 162);
+  triangle(12,121,116,120,116,10);
+  fill(94, 185, 84);
+  triangle(0,108,106,108,106,0);
+  fill(255);
+  textSize(32);
+  textFont("serif");
+  text("46", 68, 100);
